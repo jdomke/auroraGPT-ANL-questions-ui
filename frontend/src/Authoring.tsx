@@ -190,7 +190,7 @@ export function QuestionsForm({ author }: QuestionsFormProps) {
       isAuthenticated = isGlobusAuthenticated;
       auth_token = authorization?.tokens?.getByResourceServer("681c10cc-f684-4540-bcd7-0b4df3bc26ef")?.access_token;
   } else {
-      auth_token = "disabled";
+      auth_token = import.meta.env.QUESTIONSUI_AI_API_KEY; //"disabled";
       isAuthenticated = true;
   }
 
