@@ -1,5 +1,5 @@
 [Unit]
-Description=AuroraGPT Questions Service
+DescriptionJAPAN SCIENTIST AI JAM Questions Service
 After=mysql.service network-online.target
 Requires=mysql.service network-online.target
 

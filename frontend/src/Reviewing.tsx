@@ -543,7 +543,7 @@ export function QuestionReviewing() {
   });
   const [reviewerID, setReviewerID] = useState(0);
   const [progress, setProgress] = useState<ProgressProps>({
-    project: "AuroraGPT",
+    project: "JAPAN-SCIENTIST-AI-JAM",
     sofar: 0,
     goal: 50,
     history: [],

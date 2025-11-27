@@ -139,13 +139,13 @@ export function Contributions() {
       {header}
       <Container>
         <h1>Contributions of {authorInfo.authorName}</h1>
-        <p>We thank you very much for your contributions to AuroraGPT!</p>
+        <p>We thank you very much for your contributions to JAPAN SCIENTIST AI JAM!</p>
         <p>
           The evaluation effort is in an early stage. As you know Science is a
           process. Please be patient with us as we work to validate questions
           and debug our workflow. If you are missing contributions you expect to
           see please confirm you logged in the same way as before or contact{" "}
-          <a href="mailto:agptquestionsform@lists.cels.anl.gov">support</a> with
+          <a href="https://riken.slack.com/archives/C097PQKUF32">support</a> with
           what contributions you expect to see. If you are missing questions
           please provide the topic of the question and/or the source for the
           question

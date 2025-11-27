@@ -105,7 +105,7 @@ export function QuestionsInstructions() {
         </li>
         <li>
           By submitting your contribution, you understand that the question may
-          be used for evaluation of AuroraGPT and you acknowledge that you have
+          be used for evaluation of (future) AI models and you acknowledge that you have
           the rights to submit your question for this intended purpose.{" "}
         </li>
         <li>

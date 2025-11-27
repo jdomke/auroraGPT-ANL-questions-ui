@@ -19,7 +19,7 @@ export function HeaderSimple({ title, author, reconfigure }: HeaderProps) {
         ) : (
           <></>
         )}
-        <a href="mailto:agptquestionsform@lists.cels.anl.gov">Support</a>
+        <a href="https://riken.slack.com/archives/C097PQKUF32">Support</a>
       </Container>
     </header>
   );
