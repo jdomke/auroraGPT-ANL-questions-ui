@@ -183,7 +183,7 @@ interface QuestionsFormProps {
 }
 
 export function QuestionsForm({ author }: QuestionsFormProps) {
-  let isAuthenticated: boolean;
+  let isAuthenticated: boolean = true;
   let auth_token: string = import.meta.env.QUESTIONSUI_AI_API_KEY;
   /*if(import.meta.env.VITE_USE_GLOBUS == "true") {
       const { authorization,  isAuthenticated: isGlobusAuthenticated} = useGlobusAuth();
