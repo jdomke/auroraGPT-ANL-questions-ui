@@ -183,16 +183,16 @@ interface QuestionsFormProps {
 }
 
 export function QuestionsForm({ author }: QuestionsFormProps) {
-  let isAuthenticated: boolean = true;
-  let auth_token: string = import.meta.env.QUESTIONSUI_AI_API_KEY;
-  /*if(import.meta.env.VITE_USE_GLOBUS == "true") {
+  let isAuthenticated: boolean;
+  let auth_token: string|undefined;
+  if(import.meta.env.VITE_USE_GLOBUS == "true") {
       const { authorization,  isAuthenticated: isGlobusAuthenticated} = useGlobusAuth();
       isAuthenticated = isGlobusAuthenticated;
       auth_token = authorization?.tokens?.getByResourceServer("681c10cc-f684-4540-bcd7-0b4df3bc26ef")?.access_token;
   } else {
-      auth_token = "disabled";
+      auth_token = import.meta.env.QUESTIONSUI_AI_API_KEY; //"disabled";
       isAuthenticated = true;
-  }*/
+  }
 
   const [edited, setEdited] = useState(false);
   const [question, setQuestionImpl] = useState("");
