@@ -8,7 +8,7 @@ import {
 import { HeaderSimple } from "./HeaderSimple";
 export function Main() {
     return (<Container>
-        <HeaderSimple title="JAPAN SCIENTIST AI JAM - AI Model Evaluation Platform" author="" reconfigure={()=> {}}/>
+        <HeaderSimple title="JAPAN SCIENTIST AI JAM - Model Eval Platform" author="" reconfigure={()=> {}}/>
         <Text>Welcome to the JAPAN SCIENTIST AI JAM - AI Model Evaluation Platform.  What task would you like to do today?</Text>
         <List>
 	    <List.Item><a href="authoring">Write Multiple Choice Questions</a></List.Item>

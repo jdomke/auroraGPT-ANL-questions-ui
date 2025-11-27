@@ -19,7 +19,7 @@ export function HeaderSimple({ title, author, reconfigure }: HeaderProps) {
         ) : (
           <></>
         )}
-        <a href="https://riken.slack.com/archives/C097PQKUF32">Support</a>
+        <a href="import.meta.env.QUESTIONSUI_SUPPORT_LINK">Support</a>
       </Container>
     </header>
   );
