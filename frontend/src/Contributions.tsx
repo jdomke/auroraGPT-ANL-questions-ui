@@ -145,7 +145,7 @@ export function Contributions() {
           process. Please be patient with us as we work to validate questions
           and debug our workflow. If you are missing contributions you expect to
           see please confirm you logged in the same way as before or contact{" "}
-          <a href="import.meta.env.QUESTIONSUI_SUPPORT_LINK">support</a> with
+          <a href="https://discord.com/channels/1425739090086596618/1425739090992693260">support</a> with
           what contributions you expect to see. If you are missing questions
           please provide the topic of the question and/or the source for the
           question

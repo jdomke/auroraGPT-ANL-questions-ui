@@ -19,7 +19,7 @@ export function HeaderSimple({ title, author, reconfigure }: HeaderProps) {
         ) : (
           <></>
         )}
-        <a href="import.meta.env.QUESTIONSUI_SUPPORT_LINK">Support</a>
+        <a href="https://discord.com/channels/1425739090086596618/1425739090992693260">Support</a>
       </Container>
     </header>
   );
