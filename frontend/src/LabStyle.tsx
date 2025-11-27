@@ -82,7 +82,7 @@ function AnonAuthorInfo({ configureAuthor }: AuthorInfoProps) {
   return (
     <Flex direction="column">
       <Text>
-        Thanks for participating in the 1000 Scientist Jam. Please enter the
+        Thanks for participating in the JAPAN SCIENTIST AI JAM. Please enter the
         event password provided to you by the organizers to continue.
       </Text>
       <TextInput
